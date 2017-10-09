@@ -19,3 +19,11 @@ insert into users (name, email, card_number, status) values("Mihailo", "mihanich
 insert into users (name, email, card_number, status) values("Olga", "opapa@vasya.vasya", "5678", "NE AKTIVEN");
 insert into users (name, email, card_number, status) values("Nikita", "nikitos@vasya.vasya", "2222", "NE AKTIVEN");
 insert into users (name, email, card_number, status) values("Elena", "lenka@vasya.vasya", "3333", "NE AKTIVEN");
+insert into passwords (id, password) values(0, "pass1");
+insert into passwords (id, password) values(1, "pass2");
+insert into passwords (id, password) values(2, "pass3");
+insert into passwords (id, password) values(3, "pass4");
+insert into passwords (id, password) values(4, "pass5");
+insert into passwords (id, password) values(5, "pass6");
+insert into passwords (id, password) values(6, "pass7");
+

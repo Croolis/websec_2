@@ -53,5 +53,5 @@ def show_entries():
     users = cur.fetchall()
     res = ""
     for user in users:
-      res += "name: " + user[1] + ", email: " + user[2] + ", card number: " + user[3] + "<br>"
+    	res += "id: " + str(user[0]) + ", name: " + user[1] + ", email: " + user[2] + "<br>"
     return res
